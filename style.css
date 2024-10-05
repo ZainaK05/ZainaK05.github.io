@@ -7,9 +7,17 @@ body {
   line-height: 1.6;
 }
 
+section {
+  display: none;
+}
+
+section.active {
+  display:block;
+}
+
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #F3D0D7;
   padding: 20px;
   text-aligm: center;
 }
@@ -25,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -37,19 +45,19 @@ section {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #333;
-  color: #fff;
+  background-color: ##FFFFFF;
+  color: #F3D0D7;
   position: fixed;
   witdth: 100%;
   bottom: 0;
 }
 
 h1, h2 {
-  color: #333;
+  color: #FFFFFF;
 }
 
 a {
-  color: #007BFF;
+  color: #F3D0D7;
 }
 
 a:hover {
