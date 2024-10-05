@@ -1,9 +1,9 @@
 body {
-  font-family: 'Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
-  color: #F3D0D7;
+  background-color: #FFFFFF; /* White background */
+  color: #FFE2F0; /* Pink text */
   line-height: 1.6;
 }
 
@@ -16,10 +16,10 @@ section.active {
 }
 
 header {
-  background-color: #FFFFFF;
-  color: #F3D0D7;
+  background-color: #FFFFFF; /* White header */
+  color: #F3D0D7; /* Pink text */
   padding: 20px;
-  text-aligm: center;
+  text-align: center;
 }
 
 nav ul {
@@ -32,9 +32,16 @@ nav ul li {
   margin: 0 15px;
 }
 
-nav ul li a {
-  color: #FFFFFF;
-  text-decoration: none;
+nav ul li button { /* Button styles */
+    background-color: #F3D0D7; /* Pink button */
+    color: #FFFFFF; /* White text on button */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    background-color: #D3A2A8; /* Darker pink on hover */
 }
 
 section {
@@ -45,15 +52,15 @@ section {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: ##FFFFFF;
+  background-color: #FFFFFF;
   color: #F3D0D7;
   position: fixed;
-  witdth: 100%;
+  width: 100%;
   bottom: 0;
 }
 
 h1, h2 {
-  color: #FFFFFF;
+  color: #F3D0D7; /* Pink headings */
 }
 
 a {
