@@ -2,8 +2,8 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF; /* White background */
-  color: #FFE2F0; /* Pink text */
+  background-color: #f3efeb; /* Background */
+  color: #905155; /* Text */
   line-height: 1.6;
 }
 
@@ -16,8 +16,8 @@ section.active {
 }
 
 header {
-  background-color: #FFFFFF; /* White header */
-  color: #F3D0D7; /* Pink text */
+  background-color: #f3efeb; /* Header */
+  color: #905155; /* Text */
   padding: 20px;
   text-align: center;
 }
@@ -33,15 +33,15 @@ nav ul li {
 }
 
 nav ul li button { /* Button styles */
-    background-color: #F3D0D7; /* Pink button */
-    color: #FFFFFF; /* White text on button */
+    background-color: #905155; /* Button */
+    color: #FFFFFF; /* Text */
     border: none;
     padding: 10px 15px;
     cursor: pointer;
 }
 
 nav ul li button:hover {
-    background-color: #D3A2A8; /* Darker pink on hover */
+    background-color: #643537; /* Darker on hover */
 }
 
 section {
@@ -53,18 +53,18 @@ footer {
   text-align: center;
   padding: 10px;
   background-color: #FFFFFF;
-  color: #F3D0D7;
+  color: #905155;
   position: fixed;
   width: 100%;
   bottom: 0;
 }
 
 h1, h2 {
-  color: #F3D0D7; /* Pink headings */
+  color: #905155; /* Headings */
 }
 
 a {
-  color: #F3D0D7;
+  color: #905155;
 }
 
 a:hover {
