@@ -60,6 +60,20 @@
     </div>
   </section>
 
+  <script>
+    function showSection(sectionID) {
+      // Hide sectionss
+      var sections = document.querySelectorAll('section');
+      sections.forEach(function(section) {
+        section.classList.remove('active');
+      });
+
+      // Show sections
+      var selectedSection = document.getElementByID(sectionId);
+      selectedSection.classList.add('active');
+    }
+  </script>
+
   <footer>
     <p>&copy; 2024 Zaina Khan</p>
   </footer>
