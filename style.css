@@ -7,10 +7,6 @@ body {
   line-height: 1.6;
 }
 
-section {
-  display: none;
-}
-
 section.active {
   display:block;
 }
