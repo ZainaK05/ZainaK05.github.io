@@ -7,10 +7,6 @@ body {
   line-height: 1.6;
 }
 
-section.active {
-  display:block;
-}
-
 header {
   background-color: #f3efeb; /* Header */
   color: #905155; /* Text */
